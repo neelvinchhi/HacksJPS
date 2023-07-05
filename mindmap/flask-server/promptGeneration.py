@@ -1,7 +1,7 @@
 import openai
+from credentials import OPENAI_KEY
 
-
-openai.api_key = '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'
+openai.api_key = OPENAI_KEY
 
 
 def generate_response(prompt):
